@@ -1,0 +1,30 @@
+# ============================================
+# Apple Intelligence / Siri / 搜索服务域名列表
+# 参考 Apple 官方文档（2025）
+# 说明：未指定策略，可在主配置中自定义分流目标
+# ============================================
+
+# Siri & 听写请求
+DOMAIN,guzzoni.apple.com
+
+# 搜索服务（Siri、Spotlight、Safari、News、Messages、Music）
+DOMAIN-KEYWORD,smoot.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-KEYWORD,apple-dns.net
+
+# 私有云计算（Private Cloud Compute）
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+
+# Apple 智能扩展
+DOMAIN,apple-relay.mask.apple-dns.net
+DOMAIN,gateway.fe2.apple-dns.net
+DOMAIN,gateway.icloud.com
+
+# 其他相关域名（可选）
+DOMAIN,seed.siri.apple.com
+DOMAIN,seed-siri-apple-com.v.aaplimg.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,gateway.fe.apple-dns.net
